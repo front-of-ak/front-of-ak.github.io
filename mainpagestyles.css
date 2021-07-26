@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+}
+
+.button {
+  width: 78px;
+  height: 40px;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.button:hover {
+  background-color: lightgray;
+}
+
+.header-container {
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sign-basket {
+  max-height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.basket {
+  margin-top: 15px;
+  margin-left: 27px;
+}
+
+form {
+  margin-top: 127px;
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #757575;
+  color: #626262;
+  font-size: 16px;
+}
+
+.sec {
+  margin-top: 57px;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: 80px;
+}
+.card {
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  background-color: rgba(117, 117, 117, 0.04);
+  
+}
+
+.card img {
+  width: 100%;
+}
+
+.restaurant {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.price-food {
+  font-size: 14px;
+  line-height: 29px;
+  margin: 0;
+  color: #626262;
+}
+
+.time {
+  font-size: 13px;
+  line-height: 21px;
+  margin: 0;
+  color: #1d1d1d;
+}
+
+.card p {
+  padding-left: 1px;
+}
+
+footer {
+  background: #262626;
+  width: 100%;
+  padding-top: 56px;
+}
+hr {
+  margin-bottom: 32px;
+}
+
+.languagse {
+  height: 40px;
+  display: flex;
+  margin-bottom: 33px;
+  border-radius: 2px;
+  background-color: #3b3b3b;
+}
+
+select {
+  width: 100%;
+  height: 40px;
+  padding: 0 20px 0 20px;
+  font-size: 13px;
+
+  border: none;
+  background-color: #3b3b3b;
+  color: white;
+}
+.languagse img {
+  padding: 12px 0px 12px 16px;
+}
+.socialmedia img {
+  margin-right: 10px;
+}
+
+.socialmedia {
+  margin-bottom: 42px;
+}
+
+footer section {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+footer section p {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: white;
+  line-height: 15px;
+}
+
+.download {
+  text-align: center;
+}
+
+.download img {
+  margin-right: 20px;
+}
+
+.cc a {
+  font-size: 11px;
+  line-height: 13px;
+  color: white;
+}
+
+.cc {
+  padding-top: 8px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.up {
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  bottom: 24px;
+  right: 16px;
+  text-align: center;
+  background: #59bd5a;
+  border-radius: 2px;
+}
+
+.up img {
+  margin-top: 27px;
+}
+
+.cc a {
+  margin-bottom: 20px;
+}
